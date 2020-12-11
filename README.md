@@ -1,6 +1,6 @@
 # Welcome! In this project, I built a Convolutional Neural Network to predict pneumonia in chest x-rays!
 
-![hello](https://github.com/tiaplagata/dsc-phase-4-project/blob/master/Images/pre_model_imgs.png?raw=true)
+![hello](https://github.com/tiaplagata/dsc-phase-4-project/blob/master/Images/Title%20Slide.png?raw=true)
 
 # Navigation
 
@@ -14,14 +14,14 @@
 * [Link to Data](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 * [Slideshow Presentation](https://github.com/tiaplagata/dsc-phase-4-project/blob/master/Phase%204%20Ex%20Summary.pdf)
 * [Non-Technical Video Presentation](https://youtu.be/8KW4okIJfRc)
-* [Jupyter Notebook Modeling and Validation](https://github.com/tiaplagata/dsc-phase-4-project/blob/master/Phase4_Notebook.ipynb)
+* [Jupyter Notebook Full Modeling Process](https://github.com/tiaplagata/dsc-phase-4-project/blob/master/Phase4_Final_Notebook.ipynb)
 
 
 # Project Overview
 
 XYZ Healthcare System is looking to hire a data scientist to build a machine learning model to classify their radiology department's chest x-ray images and screen them for pneumonia. 
 
-To help XYZ Healthcare System with this problem, I built a Convolutional Neural Network to classify the chest x-ray images as pneumonia or non-npneumonia. This way, XYZ Healthcare System can streamline their radiology department and improve their efficiency.
+To help XYZ Healthcare System with this problem, I built a Convolutional Neural Network to classify the chest x-ray images as pneumonia or non-pneumonia. This way, XYZ Healthcare System can streamline their radiology department and improve their efficiency.
 
 **Scope & Data Used**
 
