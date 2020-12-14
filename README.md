@@ -12,7 +12,7 @@
 # Important Links
 
 * [Link to Data](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
-* [Slideshow Presentation](https://github.com/tiaplagata/dsc-phase-4-project/blob/master/Phase%204%20Ex%20Summary.pdf)
+* [Slideshow Presentation](hhttps://github.com/tiaplagata/dsc-phase-4-project/blob/master/Phase%204%20Ex%20Summary.pdf)
 * [Non-Technical Video Presentation](https://youtu.be/WekDq7MWRSk)
 * [Jupyter Notebook Full Modeling Process](https://github.com/tiaplagata/dsc-phase-4-project/blob/master/Phase4_Final_Notebook.ipynb)
 
