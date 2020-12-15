@@ -37,7 +37,7 @@ In order to preprocess the images, I used Keras' ImageDataGenerator to rescale t
 
 # Model Analysis
 
-My final model was a Convolutional Neural Network with 82% accuracy. It has 6 blocks which include 10 convolutional layers, 5 max pooling layers, and 3 fully-connected layers.
+My final model was a Convolutional Neural Network with 83% accuracy. It has 6 blocks which include 10 convolutional layers, 5 max pooling layers, and 3 fully-connected layers.
     
 ## Metric Used
 
@@ -59,16 +59,20 @@ Looking at the final model's validaition and training curves, we can see that th
 
 ![acc](https://github.com/tiaplagata/dsc-phase-4-project/blob/master/Images/final_acc.png?raw=true)
 
-The final model had an accuracy score of 82% when predicting new data (test set). The confusion matrix from the test set is depicted below. The model is much better at correctly identifying the normal class, and still struggles with correctly identifying the pneumonia class. However, it is overall predicting most of each class correctly.
+The final model had an accuracy score of 83% when predicting new data (test set). The confusion matrix from the test set is depicted below. The model is much better at correctly identifying the normal class, and still struggles with correctly identifying the pneumonia class. However, it is overall predicting most of each class correctly.
 
 ![confusion_matrix](https://github.com/tiaplagata/dsc-phase-4-project/blob/master/Images/final_cm.png?raw=true)
 
 
 ## Model Conclusion and Recommendation
 
-In conclusion, this model is not perfect. It could use some more tuning to increase its accuracy score. However, it will be very useful in improving the efficiency in XYZ Healthcare System's radiology department.
+In conclusion, this model is not perfect. It could use some more tuning to increase its accuracy score. However, it will be very useful in improving the efficiency in XYZ Healthcare System's radiology department. Here are my recommendations:
 
-I recommend using this model to provide a preliminary prediction (normal or pneumonia), then having the doctor or x-ray technician review the image to provide a final diagnosis. Even with 82% accuracy, this model will speed up the review process, and free up the doctors' and technicians' time so they can focus on other important tasks.
+- Use this model as a tool for efficiency. Implementing this model in a radiology setting as way to assist x-ray technicians in detecting pneumonia would be the best way to use this technology. For example, once the chest x-ray is taken, it can automatically give its prediction to the tech. The tech and/or doctor would then need less time to review the model's prediction and use their trained eye for a final diagnosis. This would speed up the efficiency of the entire department so that the doctors' and techs' time can be mostly spent on other tasks.
+
+- The model will likely work better if the x-ray technician crops out the diaphragm before feeding the image to the model to remove noise.
+
+- I would also recommend the x-ray tech saves the image as 224 x 224 px before feeing the image into the model.
 
 # Future Work
 
