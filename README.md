@@ -1,4 +1,4 @@
-# Welcome! In this project, I built a Convolutional Neural Network to predict pneumonia in chest x-rays!
+# Welcome! In this project, I built a Convolutional Neural Network to predict pneumonia in chest x-rays.
 
 ![hello](https://github.com/tiaplagata/dsc-phase-4-project/blob/master/Images/Title%20Slide.png?raw=true)
 
